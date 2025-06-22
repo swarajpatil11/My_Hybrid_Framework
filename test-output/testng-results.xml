@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-22T16:46:15 IST" name="Suite" finished-at="2025-06-22T16:48:00 IST" duration-ms="104115">
+    <groups>
+    </groups>
+    <test started-at="2025-06-22T16:46:15 IST" name="Test" finished-at="2025-06-22T16:48:00 IST" duration-ms="104115">
+      <class name="com.TestCases.Add_User_Test">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.Add_User_Test@306851c7]" started-at="2025-06-22T16:46:58 IST" name="SetUp" finished-at="2025-06-22T16:47:02 IST" duration-ms="3620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Adduser()[pri:0, instance:com.TestCases.Add_User_Test@306851c7]" started-at="2025-06-22T16:47:02 IST" name="Adduser" finished-at="2025-06-22T16:47:02 IST" duration-ms="333" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/aside/section/ul/li[3]/a/span"}
+  (Session info: MicrosoftEdge=137.0.3296.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df0fa608378aba6f407e65f6a59ec9db, findElement {value=/html/body/div/aside/section/ul/li[3]/a/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61486}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\swara\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61486/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df0fa608378aba6f407e65f6a59ec9db]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div/aside/section/ul/li[3]/a/span"}
+  (Session info: MicrosoftEdge=137.0.3296.93)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [df0fa608378aba6f407e65f6a59ec9db, findElement {value=/html/body/div/aside/section/ul/li[3]/a/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.93, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61486}, msedge: {msedgedriverVersion: 137.0.3296.93 (114b4a913acd..., userDataDir: C:\Users\swara\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61486/devtoo..., se:cdpVersion: 137.0.3296.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df0fa608378aba6f407e65f6a59ec9db
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source)
+at com.pages.Add_User_Page.Locators(Add_User_Page.java:37)
+at com.TestCases.Add_User_Test.Adduser(Add_User_Test.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adduser -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.Add_User_Test@306851c7]" started-at="2025-06-22T16:47:23 IST" name="Teardown" finished-at="2025-06-22T16:47:25 IST" duration-ms="2325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.TestCases.Add_User_Test -->
+      <class name="com.TestCases.LoginTestCases">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:16 IST" name="SetUp" finished-at="2025-06-22T16:46:22 IST" duration-ms="5498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:22 IST" name="ValidTest" data-provider="td" finished-at="2025-06-22T16:46:22 IST" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:22 IST" name="Teardown" finished-at="2025-06-22T16:46:25 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:25 IST" name="SetUp" finished-at="2025-06-22T16:46:28 IST" duration-ms="3522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:28 IST" name="ValidTest" data-provider="td" finished-at="2025-06-22T16:46:36 IST" duration-ms="7891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:36 IST" name="Teardown" finished-at="2025-06-22T16:46:39 IST" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:39 IST" name="SetUp" finished-at="2025-06-22T16:46:43 IST" duration-ms="4120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:43 IST" name="ValidTest" data-provider="td" finished-at="2025-06-22T16:46:43 IST" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[amit@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:43 IST" name="Teardown" finished-at="2025-06-22T16:46:45 IST" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:45 IST" name="SetUp" finished-at="2025-06-22T16:46:49 IST" duration-ms="4084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:49 IST" name="ValidTest" data-provider="td" finished-at="2025-06-22T16:46:50 IST" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shan@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:50 IST" name="Teardown" finished-at="2025-06-22T16:46:52 IST" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:52 IST" name="SetUp" finished-at="2025-06-22T16:46:56 IST" duration-ms="3626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidTest(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:56 IST" name="ValidTest" data-provider="td" finished-at="2025-06-22T16:46:56 IST" duration-ms="342" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!$%#@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#$%^@!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidTest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LoginTestCases@79145d5a]" started-at="2025-06-22T16:46:56 IST" name="Teardown" finished-at="2025-06-22T16:46:58 IST" duration-ms="2292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.TestCases.LoginTestCases -->
+      <class name="com.TestCases.LogOut_Test">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.TestCases.LogOut_Test@12bcd0c0]" started-at="2025-06-22T16:47:25 IST" name="SetUp" finished-at="2025-06-22T16:47:32 IST" duration-ms="6627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Logout()[pri:0, instance:com.TestCases.LogOut_Test@12bcd0c0]" started-at="2025-06-22T16:47:32 IST" name="Logout" finished-at="2025-06-22T16:47:57 IST" duration-ms="25447" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [JavaByKiran | Log in,] but found [JavaByKiran | Log in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [JavaByKiran | Log in,] but found [JavaByKiran | Log in]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.TestCases.LogOut_Test.Logout(LogOut_Test.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.TestCases.LogOut_Test@12bcd0c0]" started-at="2025-06-22T16:47:57 IST" name="Teardown" finished-at="2025-06-22T16:48:00 IST" duration-ms="2333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.TestCases.LogOut_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
